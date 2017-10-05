@@ -4,11 +4,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Getting Started
 
-Install NodeJs 8.x
-npm install -g @angular/cli 
-Clone the repo
-Navigate to root folder
-Run command 'ng serve'
+Install NodeJs 8.x  
+npm install -g @angular/cli    
+Clone the repo  
+Navigate to root folder  
+Run command 'ng serve'  
 
 ## Development server
 
