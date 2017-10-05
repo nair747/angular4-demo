@@ -1,0 +1,31 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="demo-container">
+
+  <div>
+    <strong> 1. Write a JavaScript program to take a source array of objects and change all names with ‘-’ to contain ‘/’ instead.</strong>
+  </div>
+
+  <div>
+
+
+    <pre> {{arrayOfObjects | json}}</pre>
+
+  </div>
+
+  <div>
+    <button class="waves-effect waves-light btn" (click)="replaceHyphenWithSlash()">Replace - with /</button>
+
+  </div>
+
+  <div class="section">
+    <div>
+      <strong> 2. Write an Angular UI that displays “Hello World 1.0”  where “1.0” is a data variable (feel free to use any Angular version, but higher is better).  Also include a button that changes the color of the hello world message when clicked.</strong>
+    </div>
+    <div class="sub-section">
+      <p [ngClass]="{ 'colorful': colorful }"> Hello World <span class="version-number"> {{version}}</span></p>
+    </div>
+    <button class="waves-effect waves-light btn" (click)="colorful = !colorful">{{colorful ? 'Make Colorless' : 'Make Colorful' }}</button>
+
+  </div>
+
+</div>

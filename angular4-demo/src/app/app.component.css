@@ -1,0 +1,16 @@
+.demo-container {
+  margin-top: 40px;
+}
+
+.section {
+  margin: 40px 0;
+}
+.sub-section {
+  margin: 20px;
+}
+
+.colorful {
+  background-color: #f35050;
+  color: white;
+  padding: 10px;
+}
