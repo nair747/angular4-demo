@@ -6,13 +6,12 @@ import { Component } from "@angular/core";
   styleUrls: ["./app.component.css"]
 })
 export class AppComponent {
-  //Write a JavaScript program to take a source array of objects and
-  //change all names with ‘-’ to contain ‘/’ instead.
   public arrayOfObjects: any = [];
   public version: string = "1.0";
-  public colorful: boolean = false;
+  public colorful: boolean = false; //true- display Hellow world text in orange color.
 
   constructor() {
+    //initialize array with some data
     this.arrayOfObjects = [
       {
         name: "Nishanth-Nair",
