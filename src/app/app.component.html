@@ -1,20 +1,14 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div class="demo-container">
+<div>
 
-  <div>
-    <strong> 1. Write a JavaScript program to take a source array of objects and change all names with ‘-’ to contain ‘/’ instead.</strong>
-  </div>
-
-  <div>
-
-
+  <div class="section">
+    <div>
+      <strong> 1. Write a JavaScript program to take a source array of objects and change all names with ‘-’ to contain ‘/’ instead.</strong>
+    </div>
     <pre> {{arrayOfObjects | json}}</pre>
-
-  </div>
-
-  <div>
-    <button class="waves-effect waves-light btn" (click)="replaceHyphenWithSlash()">Replace - with /</button>
-
+    <div>
+      <button class="waves-effect waves-light btn" (click)="replaceHyphenWithSlash()">Replace - with /</button>
+    </div>
   </div>
 
   <div class="section">
@@ -25,7 +19,15 @@
       <p [ngClass]="{ 'colorful': colorful }"> Hello World <span class="version-number"> {{version}}</span></p>
     </div>
     <button class="waves-effect waves-light btn" (click)="colorful = !colorful">{{colorful ? 'Make Colorless' : 'Make Colorful' }}</button>
-
   </div>
 
-</div>
+  <div class="section">
+    <div>
+      <strong> 3. Write a Jasmine test that tests the data binding in the previous hello world program.</strong>
+    </div>
+    <div class="sub-section">
+
+      From the root folder of the project, run the command
+      <pre> ng test </pre> Code available in app.component.spec file
+    </div>
+  </div>
